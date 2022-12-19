@@ -1,8 +1,22 @@
 plugins {
     id "org.jetbrains.kotlin.multiplatform"
-    id "org.jetbrains.kotlin.plugin.serialization"
     id "com.android.library"
 }
 
-apply from: "$mppProjectWithSerializationPresetPath"
+apply from: "$mppJavaAndAndroidProjectPresetPath"
 
+kotlin {
+    sourceSets {
+        jvmMain {
+            dependencies {
+                api libs.exposed.jdbc
+            }
+        }
+        androidMain {
+            dependsOn(jvmMain)
+            dependencies {
+                api libs.xerial.jdbc
+            }
+        }
+    }
+}

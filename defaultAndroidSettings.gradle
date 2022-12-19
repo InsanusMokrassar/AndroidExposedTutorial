@@ -1,5 +1,3 @@
-apply plugin: 'com.getkeepsafe.dexcount'
-
 android {
     compileSdkVersion libs.versions.android.compileSdk.get().toInteger()
     buildToolsVersion libs.versions.android.buildTools.get()
