@@ -1,14 +1,14 @@
 [versions]
 
-kotlin = "1.7.22"
+kotlin = "1.8.21"
 
 exposed = "0.41.1"
-xerial = "3.40.0.0"
+xerial = "3.41.2.2"
 
-android-gradle-plugin = "7.3.0"
+android-gradle-plugin = "7.4.2"
 android-minSdk = "21"
 android-compileSdk = "33"
-android-buildTools = "33.0.0"
+android-buildTools = "33.0.2"
 
 [libraries]
 
