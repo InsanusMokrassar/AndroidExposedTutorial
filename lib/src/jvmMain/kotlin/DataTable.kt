@@ -1,4 +1,4 @@
-package lib.text
+package project_group.lib
 
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils

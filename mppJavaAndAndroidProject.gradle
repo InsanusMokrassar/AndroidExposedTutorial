@@ -9,7 +9,7 @@ kotlin {
             }
         }
     }
-    android {
+    androidTarget {
         publishAllLibraryVariants()
     }
 

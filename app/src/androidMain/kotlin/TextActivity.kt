@@ -1,12 +1,12 @@
-package app.text
+package project_group.app
 
 import android.app.Activity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.EditText
-import lib.text.DataTable
-import lib.text.initDatabase
+import project_group.lib.DataTable
+import project_group.lib.initDatabase
 
 class TextActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {

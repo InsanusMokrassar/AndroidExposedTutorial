@@ -1,6 +1,7 @@
 android {
     compileSdkVersion libs.versions.android.compileSdk.get().toInteger()
     buildToolsVersion libs.versions.android.buildTools.get()
+    namespace "${project.group}.${project.name}"
 
     defaultConfig {
         minSdkVersion libs.versions.android.minSdk.get().toInteger()
@@ -26,10 +27,6 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 
     sourceSets {
