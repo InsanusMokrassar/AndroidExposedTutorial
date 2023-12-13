@@ -2,5 +2,3 @@ rootProject.name = 'android_exposed_tutorial'
 
 include ":lib"
 include ":app"
-
-enableFeaturePreview("VERSION_CATALOGS")
