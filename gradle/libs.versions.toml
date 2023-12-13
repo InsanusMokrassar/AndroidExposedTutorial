@@ -1,8 +1,8 @@
 [versions]
 
-kotlin = "1.9.21"
+kotlin = "1.9.10"
 
-exposed = "0.45.0"
+exposed = "0.44.0"
 xerial = "3.43.0.0"
 
 android-gradle-plugin = "7.4.2"
